@@ -9,125 +9,124 @@
    ],
    "description": "Modular Telegram bot for managing your groups with a few extras features.",
    "env": {
-      "ALLOW_EXCL": {
+      "allow_excl": {
          "description": "Set this to True if you want ! to be a command prefix along with /",
-         "value": "True"
+         "value": "False"
       },
-      "BAN_STICKER": {
+      "ban_sticker": {
          "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
+         "required": False,
          "value": ""
       },
-      "MESSAGE_DUMP": {
+      "message_dump": {
          "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-         "required": false,
+         "required": False,
          "value": ""   
       },
-      "DEL_CMDS": {
+      "del_cmds": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "False"
       },
-      "ENV": {
+      "cert_path": {
          "description": "Setting this to ANYTHING will enable environment variables.",
-         "value": "ANYTHING"
+         "value": "None"
       },
-      "KICK_STICKER": {
+      "port": {
          "description": "ID of the sticker you want to use when kicking people.",
-         "required": false,
-         "value": ""
+         "required": False,
+         "value": "5000"
       },
-      "SQLALCHEMY_DATABASE_URI": {
+      "database_url": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": false,
+         "required": False,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
-      "OWNER_ID": {
+      "owner_id": {
          "description": "Your user ID as an integer.",
          "value": "1118936839"
       },
-      "OWNER_USERNAME": {
+      "owner_username": {
          "description": "Your username",
          "value": "✰Sᴀͥʀᴀͣᴛͫʜ™️✰"
       },
-      "DEV_USERS": {
+      "api_key": {
          "description": "ID of users who are Dev (can use /py etc.)",
-         "required": false,
-         "value": "1118936839"
+         "required": False,
+         "value": "123456"
       },
-      "GBAN_LOGS": {
+      "load": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
-         "value": "-123"
+         "value": "[]"
       },
-      "CASH_API_KEY": {
+      "no_load": {
          "description": "Required for currency converter",
          "required": false,
-         "value": "-xyz"
+         "value": "[]"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
          "value": "-xyz"
       },
-       "LASTFM_API_KEY": {
+       "api_hash": {
          "description": "Required for lastfm plugin",
-         "value": "-xyz"
+         "value": ' '
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
          "value": "5c5adc2bc1832de6943e3f4467e84c39"
       },
-      "PORT": {
+      "spammers_lists": {
          "description": "Port to use for your webhooks.",
-         "required": false,
-         "value": ""
+         "value": "[100]"
       },
-      "STRICT_GBAN": {
+      "strict_gban": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-         "value": "True"
+         "value": "False"
       },
         
-      "STRICT_GMUTE": {
+      "strict_gmute": {
          "description": "Enforce gmute across new groups as well as old groups. When a gmutes user talks, he will be muted",
-         "value": "True"
+         "value": "False"
       },
-      "SUDO_USERS": {
+      "sudo_users": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
+         "required": False,
          "value": "1118936839"
       },
-      "SUPPORT_USERS": {
+      "support_users": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
+         "required": False,
          "value": "1118936839"
       },
      
-      "TOKEN": {
+      "bot_token": {
          "description": "Your bot token.",
-         "required": true,
+         "required": True,
          "value": ""
       },
-      "URL": {
+      "url": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
+         "required": False,
          "value": ""
       },
-      "WEBHOOK": {
+      "webhook": {
          "description": "Setting this to ANYTHING will enable webhooks.",
-         "required": false,
+         "required": False,
          "value": ""
       },
-      "WHITELIST_USERS": {
+      "whitelist_users": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": false,
+         "required": False,
          "value": "1118936839"
       },
-      "WALL_API":{
+      "workers":{
          "description": "Enter wall api",
-         "required": false,
-         "value": ""
+         "required": False,
+         "value": "4"
       },
       "LYDIA_API": {
          "description": "Put here lydia API.",
-         "required": false,
+         "required": False,
          "value": " " 
       }
    },
