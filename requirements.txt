@@ -40,3 +40,4 @@ CurrencyConverter
 googletrans
 jikanpy
 speedtest-cli
+pip3 install -r
