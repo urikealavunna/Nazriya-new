@@ -115,14 +115,6 @@ KITE =  CONFIG['kite']
 SUDO_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 SUDO_USERS.add(802002142)
-# SpamWatch
-spamwatch_api = CONFIG['sw_api']
-
-if spamwatch_api == "None":
-    sw = None
-    LOGGER.warning("SpamWatch API key is missing! Check your config.env.")
-else:
-    sw = spamwatch.Client(spamwatch_api)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 
