@@ -15,12 +15,12 @@
       },
       "ban_sticker": {
          "description": "ID of the sticker you want to use when banning people.",
-         "required": False,
+         "required": false,
          "value": ""
       },
       "message_dump": {
          "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-         "required": False,
+         "required": false,
          "value": ""   
       },
       "del_cmds": {
@@ -33,12 +33,12 @@
       },
       "port": {
          "description": "ID of the sticker you want to use when kicking people.",
-         "required": False,
+         "required": false,
          "value": "5000"
       },
       "database_url": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": False,
+         "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "owner_id": {
@@ -51,7 +51,7 @@
       },
       "api_key": {
          "description": "ID of users who are Dev (can use /py etc.)",
-         "required": False,
+         "required": false,
          "value": "123456"
       },
       "load": {
@@ -69,7 +69,7 @@
       },
        "api_hash": {
          "description": "Required for lastfm plugin",
-         "value": ' '
+         "value": ""
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
@@ -90,43 +90,43 @@
       },
       "sudo_users": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": False,
+         "required": false,
          "value": "1118936839"
       },
       "support_users": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": False,
+         "required": false,
          "value": "1118936839"
       },
      
       "bot_token": {
          "description": "Your bot token.",
-         "required": True,
+         "required": true,
          "value": ""
       },
       "url": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": False,
+         "required": false,
          "value": ""
       },
       "webhook": {
          "description": "Setting this to ANYTHING will enable webhooks.",
-         "required": False,
+         "required": false,
          "value": ""
       },
       "whitelist_users": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": False,
+         "required": false,
          "value": "1118936839"
       },
       "workers":{
          "description": "Enter wall api",
-         "required": False,
+         "required": false,
          "value": "4"
       },
       "LYDIA_API": {
          "description": "Put here lydia API.",
-         "required": False,
+         "required": false,
          "value": " " 
       }
    },
