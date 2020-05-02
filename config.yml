@@ -6,7 +6,7 @@ owner_id: 802002142
 api_key: 123456
 api_hash: ' '
 owner_username: "meanii"
-database_url: "database_url"
+database_url: 'sqldbtype://username:pw@hostname:port/db_name'
 message_dump: "chat_id"
 gban_dump: "chat_id"
 load: []
