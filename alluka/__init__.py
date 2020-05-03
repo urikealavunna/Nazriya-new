@@ -37,7 +37,7 @@ if not CONFIG['alluka_explain_config'] == "alluka_zoldyck":
     print("Read config.yml file carefully.")
     quit(1)
 
-TOKEN = int(CONFIG['bot_token'])
+TOKEN = CONFIG['bot_token']
 API_KEY = CONFIG['api_key']
 API_HASH = CONFIG['api_hash']
 try:
