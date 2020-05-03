@@ -1,7 +1,7 @@
 # CONFIG SETUP
 alluka_explain_config: "alluka_zoldyck"   #Change me from "alluka_zoldyck"
 
-bot_token: "token"  
+bot_token: ""  
 owner_id: 802002142
 api_key: 123456
 api_hash: ' '
