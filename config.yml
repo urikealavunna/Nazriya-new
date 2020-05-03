@@ -2,10 +2,10 @@
 alluka_explain_config: "alluka_zoldyck"   #Change me from "alluka_zoldyck"
 
 bot_token: "token"  
-owner_id: 802002142
-api_key: 123456
-api_hash: ' '
-owner_username: "meanii"
+owner_id: 551290198
+api_key: 866160
+api_hash: 09ee4ec080885638473a476cf1264ab3
+owner_username: "Imperialxx"
 database_url: 'sqldbtype://username:pw@hostname:port/db_name'
 message_dump: "chat_id"
 gban_dump: "chat_id"
