@@ -96,7 +96,9 @@ STRICT_GMUTE = CONFIG['strict_gmute']
 WEBHOOK = CONFIG['webhook']
 URL = CONFIG['url']
 BAN_STICKER = CONFIG['ban_sticker']
-sw = CONFIG['sw_api']
+sw = spamwatch.Client(spamwatch_api)
+
+spamwatch_api = CONFIG['sw_api']
 
 # zoldyck family
 ALLUKA = CONFIG['alluka']
