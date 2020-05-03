@@ -7,7 +7,7 @@
 
 Modular HunterxHunter themed Telegram Bot for managing your group with additional features.
 
-[![alluka](https://telegra.ph/file/4d3a649980e88c3eeb362.jpg)](http://heroku.com/deploy?template=https://github.com/Sur-vivor/allukabot)
+[![alluka](https://telegra.ph/file/4d3a649980e88c3eeb362.jpg)](http://heroku.com/deploy?template=https://github.com/Santo-surviver/Nazriya-new)
 
 ### Configuration
 
