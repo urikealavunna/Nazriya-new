@@ -39,3 +39,4 @@ CurrencyConverter
 googletrans
 jikanpy
 speedtest-cli
+spamwatch
